@@ -2,6 +2,9 @@ import logo from './images/logo.png';
 import profile from './images/profile.jpg';
 import './App.css';
 import React, { useState } from "react";
+import weatherapp from './images/weatherapp.png'
+import ecommerce from './images/ecommerce1.png'
+import blog from './images/gatsby1.png'
 
 function App() {
   const [navbarOpen, setNavbarOpen] = useState(false)
@@ -68,7 +71,6 @@ function App() {
       <section className='about-me' id='about'>
         <h2 className='section__title section__title--about'>Who I am</h2>
         <p className='section__subtitle section__subtitle--about'>Web developer</p>
-        <img src='./images/weatherapp.png' alt='' className='portfolio__img'/>
 
         <div className='section__about-me__body'>
           <p>Frontend developer with training in web development and business administration. Experience working on NodeJs, React, Redux, SQL among other technologies. I am looking for new challenges where I can add value with my knowledge in development and administration. </p>
@@ -78,17 +80,17 @@ function App() {
 
       <section className='my-work' id='work'>
         <h2 className='section__title'>My work</h2>
-        <p className='section__subtitle'>Projects I have worked on:</p>
+        <p className='section__subtitle'>Click to look up proyects I have worked on in github</p>
 
         <div className='portfolio'>
           <a href='https://github.com/jozzol/weather-dashboard' className='portfolio__item'>
-            <img src='./images/weatherapp.png' alt='' className='portfolio__img'/>
+            <img src={weatherapp} alt='' className='portfolio__img'/>
           </a>
-          <a href='#' className='portfolio__item'>
-            <img src='' alt='' className='portfolio__img'/>
+          <a href='https://github.com/Gross-Franco/E-Commerce' className='portfolio__item'>
+            <img src={ecommerce} alt='' className='portfolio__img'/>
           </a>
-          <a href='#' className='portfolio__item'>
-            <img src='' alt='' className='portfolio__img'/>
+          <a href='https://github.com/jozzol/firstGatsby' className='portfolio__item'>
+            <img src={blog} alt='' className='portfolio__img'/>
           </a>
           <a href='#' className='portfolio__item'>
             <img src='' alt='' className='portfolio__img'/>
