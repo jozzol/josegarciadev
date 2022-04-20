@@ -3,7 +3,7 @@ import profile from './images/profile.jpg';
 import './App.css';
 import React, { useState } from "react";
 import weatherapp from './images/weatherapp.png'
-import ecommerce from './images/ecommerce1.png'
+import ecommerce from './images/ecommerce2.png'
 import blog from './images/gatsby1.png'
 
 function App() {
@@ -80,24 +80,27 @@ function App() {
 
       <section className='my-work' id='work'>
         <h2 className='section__title'>My work</h2>
-        <p className='section__subtitle'>Click to look up proyects I have worked on in github</p>
+        <p className='section__subtitle--work'>Click to look up proyects I have worked on in github</p>
 
         <div className='portfolio'>
           <a href='https://github.com/jozzol/weather-dashboard' className='portfolio__item'>
+            <p>Weather-app</p>
             <img src={weatherapp} alt='' className='portfolio__img'/>
           </a>
           <a href='https://github.com/Gross-Franco/E-Commerce' className='portfolio__item'>
+          <p>E-commerce</p>
             <img src={ecommerce} alt='' className='portfolio__img'/>
           </a>
           <a href='https://github.com/jozzol/firstGatsby' className='portfolio__item'>
+          <p>Blog page</p>
             <img src={blog} alt='' className='portfolio__img'/>
           </a>
-          <a href='#' className='portfolio__item'>
+          {/* <a href='#' className='portfolio__item'>
             <img src='' alt='' className='portfolio__img'/>
           </a>
           <a href='#' className='portfolio__item'>
             <img src='' alt='' className='portfolio__img'/>
-          </a>
+          </a> */}
 
         </div>
       </section> 
