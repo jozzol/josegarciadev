@@ -68,6 +68,7 @@ function App() {
       <section className='about-me' id='about'>
         <h2 className='section__title section__title--about'>Who I am</h2>
         <p className='section__subtitle section__subtitle--about'>Web developer</p>
+        <img src='./images/weatherapp.png' alt='' className='portfolio__img'/>
 
         <div className='section__about-me__body'>
           <p>Frontend developer with training in web development and business administration. Experience working on NodeJs, React, Redux, SQL among other technologies. I am looking for new challenges where I can add value with my knowledge in development and administration. </p>
@@ -80,8 +81,8 @@ function App() {
         <p className='section__subtitle'>Projects I have worked on:</p>
 
         <div className='portfolio'>
-          <a href='#' className='portfolio__item'>
-            <img src='' alt='' className='portfolio__img'/>
+          <a href='https://github.com/jozzol/weather-dashboard' className='portfolio__item'>
+            <img src='./images/weatherapp.png' alt='' className='portfolio__img'/>
           </a>
           <a href='#' className='portfolio__item'>
             <img src='' alt='' className='portfolio__img'/>
