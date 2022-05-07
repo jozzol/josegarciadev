@@ -108,10 +108,10 @@ function App() {
       <footer className='footer'>
         <a href='joseg1224@hotmail.com' className='footer__link'>joseg1224@hotmail.com</a>
         <ul className='social-list'>
-          <li className='social-list__item'><a className='social-list__link'>
+          <li className='social-list__item'><a className='social-list__link' href='https://github.com/jozzol'>
             <i class="fa-brands fa-github"></i>
           </a></li>
-          <li className='social-list__item'><a className='social-list__link'>
+          <li className='social-list__item'><a className='social-list__link' href='https://www.linkedin.com/in/jose-guillermo-garcia-serrano-dev/'>
             <i class="fa-brands fa-linkedin"></i>
           </a></li>
         </ul>
