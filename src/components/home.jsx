@@ -85,24 +85,60 @@ const Home = () =>{
       <section className='my-work' id='work'>
         <h2 className='section__title'>My work</h2>
         <p className='section__subtitle--work'>Click to look up proyects I have worked on in github</p>
+      <div className='portfolio'>
 
-        <div className='portfolio'>
-          <a href='https://github.com/jozzol/weather-dashboard' className='portfolio__item'>
-            <p>Weather-app</p>
-            <img src={weatherapp} alt='' className='portfolio__img'/>
-          </a>
-          <a href='https://github.com/Gross-Franco/E-Commerce' className='portfolio__item'>
-          <p>E-commerce</p>
-            <img src={ecommerce} alt='' className='portfolio__img'/>
-          </a>
-          <a href='https://github.com/jozzol/firstGatsby' className='portfolio__item'>
-          <p>Blog page</p>
-            <img src={blog} alt='' className='portfolio__img'/>
-          </a>
-          <a href='https://github.com/jozzol/doctorpage' className='portfolio__item'>
-          <p>Bussiness page</p>
-            <img src={doctor} alt='' className='portfolio__img'/>
-          </a>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg px-6">
+        <img class="w-full h-1/2" src={weatherapp} alt="Sunset in the mountains"/>
+      <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">Weather Dashboard</div>
+        <p class="text-gray-700 text-base">
+        Weather app, connects to the weather API an brings information from various cities
+        </p>
+      </div>
+      <div class="px-6 pt-0 pb-0 flex">
+        <a href='https://github.com/jozzol/weather-dashboard' className='portfolio__item'>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github repository</span>
+        </a>
+        <a href='https://jozzol.github.io/weather-dashboard/' className='portfolio__item'>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Live demo</span>
+        </a>
+      </div>
+      </div>
+
+      
+      <div class="max-w-sm rounded overflow-hidden shadow-lg px-6">
+        <img class="w-full h-1/2" src={ecommerce} alt="Sunset in the mountains"/>
+      <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">Ecommerce website</div>
+        <p class="text-gray-700 text-base">
+        Ecommerce website, worked in a group of 7 using agile methologies, it has a functioning backend and frontend, allows people to buy different products and for the admins to create or update information
+        </p>
+      </div>
+      <div class="px-6 pt-0 pb-0 flex">
+        <a href='https://github.com/Gross-Franco/E-Commerce' className='portfolio__item'>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github repository</span>
+        </a>        
+      </div>
+      </div>
+
+      <div class="max-w-sm rounded overflow-hidden shadow-lg px-6">
+        <img class="w-full h-1/2" src={doctor} alt="Sunset in the mountains"/>
+      <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">Business page</div>
+        <p class="text-gray-700 text-base">
+        Business page built for a doctor, contains their information and links to different pages with their treatment information.
+        </p>
+      </div>
+      <div class="px-6 pt-0 pb-0 flex">
+        <a href='https://github.com/jozzol/doctorpage' className='portfolio__item'>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Github repository</span>
+        </a>
+        <a href='https://jozzol.github.io/doctorpage/' className='portfolio__item'>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Live demo</span>
+        </a>        
+      </div>
+      </div>
+
           {/* <a href='#' className='portfolio__item'>
             <img src='' alt='' className='portfolio__img'/>
           </a> */}
